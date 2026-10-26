@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Génère CardWarsCards.json (liste de cartes TCG Arena) à partir de bdd.json (créé par Download_CardWars.js).
+ * Génère AdventureTimeCards.json (liste de cartes TCG Arena) à partir de bdd.json (créé par Download_CardWars.js).
  *
  *  - Format TCG Arena, comme les autres jeux : id, face.front, name, type, cost, landscape, attack, defense, set
  *    - id    = "CW-" + id carddweeb ("CW-107")
@@ -27,11 +27,11 @@ const path = require('path');
 const CONFIG = {
     repoRoot: path.resolve(process.env.REPO_ROOT || path.join(__dirname, '..')),
     bddFile: 'bdd.json',                     // créé par Download_CardWars.js
-    cardsFile: 'CardWarsCards.json',         // fichier du jeu, à la racine du repo
+    cardsFile: 'AdventureTimeCards.json',    // fichier du jeu, à la racine du repo
     reportPath: path.join(__dirname, 'cardlist-report.md'),
 
     // adresse GitHub Pages du repo qui contient le dossier Images/
-    pagesBaseUrl: trimSlash(process.env.PAGES_BASE_URL || 'https://valcur.github.io/TCG-Arena-CardWars'),
+    pagesBaseUrl: trimSlash(process.env.PAGES_BASE_URL || 'https://valcur.github.io/TCG-Arena-AdventureTime'),
 
     noSetName: 'No Set',                     // valeur de "set" pour les cartes sans set (les landscapes sur carddweeb)
     minRatioVsPrevious: 0.8,                 // refuse d'écrire si on perd >20% des cartes (FORCE=1 pour forcer)
@@ -77,7 +77,7 @@ function imageUrl(relPath) {
     return `${CONFIG.pagesBaseUrl}/${String(relPath).split('/').map(encodeURIComponent).join('/')}`;
 }
 
-// ─────────────────────────────── Format CardWarsCards.json ───────────────────────────────
+// ─────────────────────────────── Format AdventureTimeCards.json ───────────────────────────────
 
 /** "CW-107" : préfixe pour que l'ordre du fichier soit respecté (un objet JSON trie les clés purement numériques) */
 function cardId(c) { return `CW-${c.id}`; }

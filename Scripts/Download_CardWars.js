@@ -63,7 +63,7 @@ const CONFIG = {
     timeoutMs: 120_000,
     retries: 3,
     minRatioVsPrevious: 0.8,    // sécurité : refuse d'écrire si l'API renvoie < 80 % des cartes déjà connues
-    userAgent: 'TCG-Arena-CardWars-importer/1.0 (+https://tcg-arena.fr)',
+    userAgent: 'TCG-Arena-AdventureTime-importer/1.0 (+https://valcur.github.io/TCG-Arena-AdventureTime)',
 };
 
 const FORCE = process.env.FORCE === '1';

@@ -1,9 +1,9 @@
-# Liste des cartes Card Wars — 2026-10-25 17:39 UTC
+# Liste des cartes Card Wars — 2026-10-26 17:23 UTC
 
 | | |
 |---|---|
 | Cartes dans bdd.json | 862 |
-| Cartes dans CardWarsCards.json | 862 (avant : 0) |
+| Cartes dans AdventureTimeCards.json | 862 (avant : 0) |
 | Noms différents (cartes jouables) | 862 |
 | Cartes regroupées en skins | 0 noms, 0 cartes |
 | Nouvelles cartes | 862 |
