@@ -1,5 +1,3 @@
-import { functions } from "stylus"
-
 async function onPlayersSideboardClosed() {
     const landscapes = cards?.Exile
     if (landscapes?.length >= 4) {
