@@ -1,5 +1,6 @@
 async function onPlayersSideboardClosed() {
     const landscapes = cards?.Exile
+    console.log(cards)
     if (landscapes?.length >= 4) {
         functions.moveCard(landscapes[0], "Landscape1")
         functions.moveCard(landscapes[1], "Landscape2")
