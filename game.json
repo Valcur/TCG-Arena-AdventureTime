@@ -1,0 +1,438 @@
+{
+    "name": "Adventure Time Card Wars",
+    "menuBackgroundImage": "https://valcur.github.io/TCG-Arena-AdventureTime/Images/banner.jpg",
+    "deckBuilding": {
+        "mainFilters": [
+            "type",
+            "colors",
+            "rarity"
+        ],
+        "formats": [
+            {
+                "title": "Classic",
+                "gameplay": "Classic",
+                "deckRuleset": "Classic"
+            }
+        ],
+        "deckRulesets": {
+            "Classic": {
+                "general": {
+                    "min": 50,
+                    "max": 50,
+                    "maxPerCard": 4
+                },
+                "categories": [
+                    {
+                        "category": "Leader",
+                        "min": 1,
+                        "max": 1,
+                        "ignoreTotalCount": true
+                    },
+                    {
+                        "category": "DON!!",
+                        "min": 1,
+                        "max": 10,
+                        "maxPerCard": 10,
+                        "ignoreTotalCount": true
+                    }
+                ]
+            }
+        }
+    },
+    "gameplay": {
+        "Classic": {
+            "beforeGameStart": {
+                "initialBoardSetup": {
+
+                },
+                "chooseAnotherStartingPlayer": true
+            },
+            "mulligan": {
+                "default": {
+                    "info": "You can draw a new hand once.",
+                    "startingHandSize": 5,
+                    "triggeredByButton": true,
+                    "mulliganCount": {
+                        "max": 1
+                    },
+                    "mulliganCycle": {
+                        "selectionRange": {
+                            "min": 5
+                        },
+                        "steps": [
+                            "toBottom",
+                            "shuffle",
+                            "draw"
+                        ]
+                    }
+                },
+                "1": {
+                    "info": "You go second: can draw a new hand twice.",
+                    "startingHandSize": 6,
+                    "mulliganCount": {
+                        "max": 2
+                    },
+                }
+            },
+            "newTurn": {
+                "drawOnStart": false,
+                "drawPerTurn": 1
+            },
+            "tokens": [],
+            "draggableTokens": [],
+            "countersStartingValues": [25],
+            "sections": {
+                "layout": {
+                    "direction": "column",
+                    "style": {
+                        "marginTop": "-2.5vh",
+                        "--column-width": "18vh",
+                        "--creature-width": "20vh",
+                        "--building--width": "13vh",
+                        "marginRight": "-1vh"
+                    },
+                    "content": [
+                        {
+                            "direction": "row",
+                            "isSymetricalForOpponents": true,
+                            "style": {
+                                "justifyContent": "center",
+                                "gap": "2vh"
+                            },
+                            "content": [
+                                {
+                                    "direction": "column",
+                                    "style": {
+                                        "position": "relative",
+                                        "width": "var(--column-width)"
+                                    },
+                                    "content": [
+                                        {
+                                            "direction": "row",
+                                            "isSymetricalForOpponents": true,
+                                            "content": [
+                                                {
+                                                    "section": "Landscape1",
+                                                    "style": {
+                                                        "width": "0vh",
+                                                        "opacity": "0"
+                                                    }
+                                                },
+                                                {
+                                                    "section": "Creature1",
+                                                    "style": {
+                                                        "height": "var(--creature-width)",
+                                                        "marginTop": "2vh",
+                                                        "marginLeft": "-0.5vh",
+                                                        "opacity": "0"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "section": "Building1",
+                                            "style": {
+                                                "width": "var(--building--width)",
+                                                "marginTop": "-1.5vh",
+                                                "marginLeft": "auto",
+                                                "marginRight": "auto"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "direction": "column",
+                                    "style": {
+                                        "position": "relative",
+                                        "width": "var(--column-width)"
+                                    },
+                                    "content": [
+                                        {
+                                            "direction": "row",
+                                            "isSymetricalForOpponents": true,
+                                            "content": [
+                                                {
+                                                    "section": "Landscape2",
+                                                    "style": {
+                                                        "width": "0vh",
+                                                        "opacity": "0"
+                                                    }
+                                                },
+                                                {
+                                                    "section": "Creature2",
+                                                    "style": {
+                                                        "height": "var(--creature-width)",
+                                                        "marginTop": "2vh",
+                                                        "marginLeft": "-0.5vh",
+                                                        "opacity": "0"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "section": "Building2",
+                                            "style": {
+                                                "width": "var(--building--width)",
+                                                "marginTop": "-1.5vh",
+                                                "marginLeft": "auto",
+                                                "marginRight": "auto"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "direction": "column",
+                                    "style": {
+                                        "position": "relative",
+                                        "width": "var(--column-width)"
+                                    },
+                                    "content": [
+                                        {
+                                            "direction": "row",
+                                            "isSymetricalForOpponents": true,
+                                            "content": [
+                                                {
+                                                    "section": "Landscape3",
+                                                    "style": {
+                                                        "width": "0vh",
+                                                        "opacity": "0"
+                                                    }
+                                                },
+                                                {
+                                                    "section": "Creature3",
+                                                    "style": {
+                                                        "height": "var(--creature-width)",
+                                                        "marginTop": "2vh",
+                                                        "marginLeft": "-0.5vh",
+                                                        "opacity": "0"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "section": "Building3",
+                                            "style": {
+                                                "width": "var(--building--width)",
+                                                "marginTop": "-1.5vh",
+                                                "marginLeft": "auto",
+                                                "marginRight": "auto"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "direction": "column",
+                                    "style": {
+                                        "position": "relative",
+                                        "width": "var(--column-width)"
+                                    },
+                                    "content": [
+                                        {
+                                            "direction": "row",
+                                            "isSymetricalForOpponents": true,
+                                            "content": [
+                                                {
+                                                    "section": "Landscape4",
+                                                    "style": {
+                                                        "width": "0vh",
+                                                        "opacity": "0"
+                                                    }
+                                                },
+                                                {
+                                                    "section": "Creature4",
+                                                    "style": {
+                                                        "height": "var(--creature-width)",
+                                                        "marginTop": "2vh",
+                                                        "marginLeft": "-0.5vh",
+                                                        "opacity": "0"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "section": "Building4",
+                                            "style": {
+                                                "width": "var(--building--width)",
+                                                "marginTop": "-1.5vh",
+                                                "marginLeft": "auto",
+                                                "marginRight": "auto"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "section": "Manager"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "categoriesAlreadyOnBoard": [
+                    "Landscape->Exile"
+                ],
+                "autoPlayFromHand": {
+
+                },
+                "autoPlayFromStack": {
+
+                },
+                "sectionsDict": {
+                    "Landscape1": {
+                        "isHidden": "no",
+                        "height": 24,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "isGroupForbidden": true,
+                        "displayedTitle": "Landscape",
+                        "noQuickActions": true,
+                        "cardActionShortcut": {
+                            "action": "VISIBILITY"
+                        },
+                        "staticCards": true
+                    },
+                    "Creature1": {
+                        "isHidden": "no",
+                        "height": 18,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "displayedTitle": "Creature",
+                        "noQuickActions": true,
+                        "reverseZOrder": true
+                    },
+                    "Building1": {
+                        "isHidden": "no",
+                        "height": 16,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "displayedTitle": "Building",
+                        "noQuickActions": true,
+                        "reverseZOrder": true
+                    },
+                    "Landscape2": {
+                        "isHidden": "no",
+                        "height": 24,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "isGroupForbidden": true,
+                        "displayedTitle": "Landscape",
+                        "noQuickActions": true,
+                        "cardActionShortcut": {
+                            "action": "VISIBILITY"
+                        },
+                        "staticCards": true
+                    },
+                    "Creature2": {
+                        "isHidden": "no",
+                        "height": 18,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "displayedTitle": "Creature",
+                        "noQuickActions": true,
+                        "reverseZOrder": true
+                    },
+                    "Building2": {
+                        "isHidden": "no",
+                        "height": 16,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "displayedTitle": "Building",
+                        "noQuickActions": true,
+                        "reverseZOrder": true
+                    },
+                    "Landscape3": {
+                        "isHidden": "no",
+                        "height": 24,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "isGroupForbidden": true,
+                        "displayedTitle": "Landscape",
+                        "noQuickActions": true,
+                        "cardActionShortcut": {
+                            "action": "VISIBILITY"
+                        },
+                        "staticCards": true
+                    },
+                    "Creature3": {
+                        "isHidden": "no",
+                        "height": 18,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "displayedTitle": "Creature",
+                        "noQuickActions": true,
+                        "reverseZOrder": true
+                    },
+                    "Building3": {
+                        "isHidden": "no",
+                        "height": 16,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "displayedTitle": "Building",
+                        "noQuickActions": true,
+                        "reverseZOrder": true
+                    },
+                    "Landscape4": {
+                        "isHidden": "no",
+                        "height": 24,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "isGroupForbidden": true,
+                        "displayedTitle": "Landscape",
+                        "noQuickActions": true,
+                        "cardActionShortcut": {
+                            "action": "VISIBILITY"
+                        },
+                        "staticCards": true
+                    },
+                    "Creature4": {
+                        "isHidden": "no",
+                        "height": 18,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "displayedTitle": "Creature",
+                        "noQuickActions": true,
+                        "reverseZOrder": true
+                    },
+                    "Building4": {
+                        "isHidden": "no",
+                        "height": 16,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "displayedTitle": "Building",
+                        "noQuickActions": true,
+                        "reverseZOrder": true
+                    },
+                    "Manager": {
+                        "type": "custom",
+                        "defaultValue": {
+                        },
+                        "blueprint": {
+                            "type": "div",
+                            "props": {
+                                "className": "position-absolute pe-none"
+                            }
+                        },
+                        "events": {
+                            "onPlayersSideboardClosed": "await onPlayersSideboardClosed()"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "defaultRessources": {
+        "backgrounds": [
+            "https://valcur.github.io/TCG-Arena-AdventureTime/Images/playmat1.jpg",
+            "https://valcur.github.io/TCG-Arena-AdventureTime/Images/playmat2.jpg"
+        ],
+        "decksUrl": ""
+    },
+    "customHelp": "",
+    "cards": {
+        "dataUrl": "https://valcur.github.io/TCG-Arena-AdventureTime/AdventureTimeCards.json",
+        "cardBack": "https://valcur.github.io/TCG-Arena-AdventureTime/Images/cardBack.webp",
+        "cardBackColor": "#ede0b8"
+    },
+    "scriptsUrls": [
+        "https://valcur.github.io/TCG-Arena-AdventureTime/functions.jsx"
+    ]
+}
