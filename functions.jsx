@@ -1,6 +1,5 @@
 async function onPlayersSideboardClosed() {
     const landscapes = cards?.Exile
-    console.log(cards)
     if (landscapes?.length >= 4) {
         functions.moveCard(landscapes[0], "Landscape1")
         functions.moveCard(landscapes[1], "Landscape2")
@@ -8,4 +7,20 @@ async function onPlayersSideboardClosed() {
         functions.moveCard(landscapes[3], "Landscape4")
         functions.repositionCards()
     }
+}
+
+async function swapLandscapes(index) {
+    const landscapeA = cards?.["Landscape" + index]
+    const landscapeB = cards?.["Landscape" + (index + 1)]
+    if (!landscapeA || !landscapeB) return
+    functions.moveCard(landscapeB, "Landscape" + index)
+    functions.moveCard(landscapeA, "Landscape" + (index + 1))
+    functions.repositionCards()
+}
+
+async function flipLandscape(index) {
+    const landscape = cards?.["Landscape" + index]
+    if (!landscape) return
+    functions.hideCards([landscape], landscape.hiddenTo?.status === "no" ? "yes" : "no")
+    functions.repositionCards()
 }
