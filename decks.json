@@ -1,0 +1,256 @@
+[
+    {
+      "title": "Jake",
+      "id": "Jake",
+      "cardCount": 41,
+      "createdAt": "2026-10-31T12:24:36.805Z",
+      "lastModifiedAt": "2026-10-31T12:25:49.038Z",
+      "game": "Adventure Time",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Creature",
+          "Spell",
+          "Building"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-23"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 1,
+            "id": "CW-25"
+          },
+          {
+            "count": 1,
+            "id": "CW-28"
+          },
+          {
+            "count": 1,
+            "id": "CW-29"
+          },
+          {
+            "count": 2,
+            "id": "CW-30"
+          },
+          {
+            "count": 2,
+            "id": "CW-31"
+          },
+          {
+            "count": 1,
+            "id": "CW-36"
+          },
+          {
+            "count": 2,
+            "id": "CW-37"
+          },
+          {
+            "count": 2,
+            "id": "CW-39"
+          },
+          {
+            "count": 2,
+            "id": "CW-40"
+          },
+          {
+            "count": 2,
+            "id": "CW-41"
+          },
+          {
+            "count": 2,
+            "id": "CW-43"
+          },
+          {
+            "count": 2,
+            "id": "CW-49"
+          },
+          {
+            "count": 2,
+            "id": "CW-51"
+          },
+          {
+            "count": 2,
+            "id": "CW-26"
+          },
+          {
+            "count": 1,
+            "id": "CW-33"
+          },
+          {
+            "count": 1,
+            "id": "CW-35"
+          },
+          {
+            "count": 1,
+            "id": "CW-44"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-58"
+          },
+          {
+            "count": 2,
+            "id": "CW-56"
+          },
+          {
+            "count": 1,
+            "id": "CW-57"
+          },
+          {
+            "count": 2,
+            "id": "CW-60"
+          },
+          {
+            "count": 2,
+            "id": "CW-61"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-67"
+          },
+          {
+            "count": 2,
+            "id": "CW-64"
+          },
+          {
+            "count": 1,
+            "id": "CW-65"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Finn",
+      "id": "Finn",
+      "cardCount": 41,
+      "createdAt": "2026-10-31T12:24:36.805Z",
+      "lastModifiedAt": "2026-10-31T12:25:49.038Z",
+      "game": "Adventure Time",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Creature",
+          "Spell",
+          "Building"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-22"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 2,
+            "id": "CW-24"
+          },
+          {
+            "count": 2,
+            "id": "CW-27"
+          },
+          {
+            "count": 2,
+            "id": "CW-32"
+          },
+          {
+            "count": 2,
+            "id": "CW-34"
+          },
+          {
+            "count": 1,
+            "id": "CW-38"
+          },
+          {
+            "count": 2,
+            "id": "CW-45"
+          },
+          {
+            "count": 2,
+            "id": "CW-46"
+          },
+          {
+            "count": 1,
+            "id": "CW-50"
+          },
+          {
+            "count": 1,
+            "id": "CW-52"
+          },
+          {
+            "count": 2,
+            "id": "CW-53"
+          },
+          {
+            "count": 2,
+            "id": "CW-54"
+          },
+          {
+            "count": 2,
+            "id": "CW-42"
+          },
+          {
+            "count": 2,
+            "id": "CW-48"
+          },
+          {
+            "count": 2,
+            "id": "CW-47"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-59"
+          },
+          {
+            "count": 2,
+            "id": "CW-55"
+          },
+          {
+            "count": 2,
+            "id": "CW-61"
+          },
+          {
+            "count": 1,
+            "id": "CW-62"
+          },
+          {
+            "count": 2,
+            "id": "CW-63"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-66"
+          },
+          {
+            "count": 2,
+            "id": "CW-68"
+          },
+          {
+            "count": 1,
+            "id": "CW-64"
+          },
+          {
+            "count": 2,
+            "id": "CW-65"
+          }
+        ]
+      }
+    }
+]

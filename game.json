@@ -424,7 +424,7 @@
             "https://valcur.github.io/TCG-Arena-AdventureTime/Images/playmat1.jpg",
             "https://valcur.github.io/TCG-Arena-AdventureTime/Images/playmat2.jpg"
         ],
-        "decksUrl": ""
+        "decksUrl": "https://valcur.github.io/TCG-Arena-AdventureTime/decks.json"
     },
     "customHelp": "",
     "cards": {
