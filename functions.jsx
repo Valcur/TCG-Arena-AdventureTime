@@ -10,8 +10,8 @@ async function onPlayersSideboardClosed() {
 }
 
 async function swapLandscapes(index) {
-    const landscapeA = cards?.["Landscape" + index]
-    const landscapeB = cards?.["Landscape" + (index + 1)]
+    const landscapeA = cards?.["Landscape" + index]?.[0]
+    const landscapeB = cards?.["Landscape" + (index + 1)]?.[0]
     if (!landscapeA || !landscapeB) return
     functions.moveCard(landscapeB, "Landscape" + index)
     functions.moveCard(landscapeA, "Landscape" + (index + 1))
@@ -19,7 +19,7 @@ async function swapLandscapes(index) {
 }
 
 async function flipLandscape(index) {
-    const landscape = cards?.["Landscape" + index]
+    const landscape = cards?.["Landscape" + index]?.[0]
     if (!landscape) return
     functions.hideCards([landscape], landscape.hiddenTo?.status === "no" ? "yes" : "no")
     functions.repositionCards()
