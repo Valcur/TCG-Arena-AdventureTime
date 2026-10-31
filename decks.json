@@ -14,7 +14,8 @@
           "Hero",
           "Creature",
           "Spell",
-          "Building"
+          "Building",
+          "Landscape"
         ],
         "Hero": [
           {
@@ -127,6 +128,24 @@
             "count": 1,
             "id": "CW-65"
           }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-4"
+          },
+          {
+            "count": 1,
+            "id": "CW-5"
+          },
+          {
+            "count": 1,
+            "id": "CW-6"
+          },
+          {
+            "count": 1,
+            "id": "CW-7"
+          }
         ]
       }
     },
@@ -145,7 +164,8 @@
           "Hero",
           "Creature",
           "Spell",
-          "Building"
+          "Building",
+          "Landscape"
         ],
         "Hero": [
           {
@@ -249,6 +269,24 @@
           {
             "count": 2,
             "id": "CW-65"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-0"
+          },
+          {
+            "count": 1,
+            "id": "CW-1"
+          },
+          {
+            "count": 1,
+            "id": "CW-2"
+          },
+          {
+            "count": 1,
+            "id": "CW-3"
           }
         ]
       }
