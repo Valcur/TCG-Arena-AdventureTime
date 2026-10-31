@@ -17,23 +17,19 @@
         "deckRulesets": {
             "Classic": {
                 "general": {
-                    "min": 50,
-                    "max": 50,
+                    "min": 45,
                     "maxPerCard": 4
                 },
                 "categories": [
                     {
-                        "category": "Leader",
+                        "category": "Hero",
                         "min": 1,
-                        "max": 1,
-                        "ignoreTotalCount": true
+                        "max": 1
                     },
                     {
-                        "category": "DON!!",
-                        "min": 1,
-                        "max": 10,
-                        "maxPerCard": 10,
-                        "ignoreTotalCount": true
+                        "category": "Landscape",
+                        "min": 4,
+                        "max": 4
                     }
                 ]
             }
@@ -48,34 +44,25 @@
                 "chooseAnotherStartingPlayer": true
             },
             "mulligan": {
-                "default": {
-                    "info": "You can draw a new hand once.",
-                    "startingHandSize": 5,
-                    "triggeredByButton": true,
-                    "mulliganCount": {
-                        "max": 1
-                    },
-                    "mulliganCycle": {
-                        "selectionRange": {
-                            "min": 5
-                        },
-                        "steps": [
-                            "toBottom",
-                            "shuffle",
-                            "draw"
-                        ]
-                    }
+                "startingHandSize": 5,
+                "triggeredByButton": true,
+                "mulliganCount": {
+                    "max": 1
                 },
-                "1": {
-                    "info": "You go second: can draw a new hand twice.",
-                    "startingHandSize": 6,
-                    "mulliganCount": {
-                        "max": 2
+                "mulliganCycle": {
+                    "info": "You can draw a new hand once.",
+                    "selectionRange": {
+                        "min": 5
                     },
+                    "steps": [
+                        "toBottom",
+                        "shuffle",
+                        "draw"
+                    ]
                 }
             },
             "newTurn": {
-                "drawOnStart": false,
+                "drawOnStart": true,
                 "drawPerTurn": 1
             },
             "tokens": [],
@@ -92,6 +79,22 @@
                         "marginRight": "-1vh"
                     },
                     "content": [
+                        {
+                            "direction": "row",
+                            "style": {
+                                "height": 0
+                            },
+                            "content": [
+                                {
+                                    "section": "Hero",
+                                    "style": {
+                                        "marginTop": "5vh",
+                                        "marginRight": "auto",
+                                        "width": "14vh"
+                                    }
+                                }
+                            ]
+                        },
                         {
                             "direction": "row",
                             "isSymetricalForOpponents": true,
@@ -268,7 +271,8 @@
                     ]
                 },
                 "categoriesAlreadyOnBoard": [
-                    "Landscape->Exile"
+                    "Landscape->Exile",
+                    "Hero"
                 ],
                 "autoPlayFromHand": {
 
@@ -286,9 +290,9 @@
                         "displayedTitle": "Landscape",
                         "noQuickActions": true,
                         "cardActionShortcut": {
-                            "action": "VISIBILITY"
+                            "action": "NONE"
                         },
-                        "staticCards": true
+                        "lockedCards": true
                     },
                     "Creature1": {
                         "isHidden": "no",
@@ -317,9 +321,9 @@
                         "displayedTitle": "Landscape",
                         "noQuickActions": true,
                         "cardActionShortcut": {
-                            "action": "VISIBILITY"
+                            "action": "NONE"
                         },
-                        "staticCards": true
+                        "lockedCards": true
                     },
                     "Creature2": {
                         "isHidden": "no",
@@ -348,9 +352,9 @@
                         "displayedTitle": "Landscape",
                         "noQuickActions": true,
                         "cardActionShortcut": {
-                            "action": "VISIBILITY"
+                            "action": "NONE"
                         },
-                        "staticCards": true
+                        "lockedCards": true
                     },
                     "Creature3": {
                         "isHidden": "no",
@@ -379,9 +383,9 @@
                         "displayedTitle": "Landscape",
                         "noQuickActions": true,
                         "cardActionShortcut": {
-                            "action": "VISIBILITY"
+                            "action": "NONE"
                         },
-                        "staticCards": true
+                        "lockedCards": true
                     },
                     "Creature4": {
                         "isHidden": "no",
@@ -401,6 +405,13 @@
                         "noQuickActions": true,
                         "reverseZOrder": true
                     },
+                    "Hero": {
+                        "isHidden": "no",
+                        "height": 18,
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": false,
+                        "noQuickActions": true
+                    },
                     "Manager": {
                         "type": "custom",
                         "defaultValue": {
@@ -408,8 +419,91 @@
                         "blueprint": {
                             "type": "div",
                             "props": {
-                                "className": "position-absolute pe-none"
-                            }
+                                "className": "position-absolute player-only d-flex gap-1 bottom-0 start-0 align-items-center",
+                                "style": {
+                                    "--flip-aspect-ratio": "63 / 88",
+                                    "--swap-padding": "0vh 0.5vh 0.1vh 0.5vh"
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "button",
+                                    "children": "1",
+                                    "props": {
+                                        "variant": "blurry",
+                                        "style": {
+                                            "aspectRatio": "var(--flip-aspect-ratio)"
+                                        }
+                                    },
+                                    "onClick": "await flipLandscape(1)"
+                                },
+                                {
+                                    "type": "button",
+                                    "children": "↔",
+                                    "props": {
+                                        "variant": "blurry",
+                                        "style": {
+                                            "padding": "var(--swap-padding)"
+                                        }
+                                    },
+                                    "onClick": "await swapLandscapes(1)"
+                                },
+                                {
+                                    "type": "button",
+                                    "children": "2",
+                                    "props": {
+                                        "variant": "blurry",
+                                        "style": {
+                                            "aspectRatio": "var(--flip-aspect-ratio)"
+                                        }
+                                    },
+                                    "onClick": "await flipLandscape(2)"
+                                },
+                                {
+                                    "type": "button",
+                                    "children": "↔",
+                                    "props": {
+                                        "variant": "blurry",
+                                        "style": {
+                                            "padding": "var(--swap-padding)"
+                                        }
+                                    },
+                                    "onClick": "await swapLandscapes(2)"
+                                },
+                                {
+                                    "type": "button",
+                                    "children": "3",
+                                    "props": {
+                                        "variant": "blurry",
+                                        "style": {
+                                            "aspectRatio": "var(--flip-aspect-ratio)"
+                                        }
+                                    },
+                                    "onClick": "await flipLandscape(4)"
+                                },
+                                {
+                                    "type": "button",
+                                    "children": "↔",
+                                    "props": {
+                                        "variant": "blurry",
+                                        "style": {
+                                            "padding": "var(--swap-padding)"
+                                        }
+                                    },
+                                    "onClick": "await swapLandscapes(3)"
+                                },
+                                {
+                                    "type": "button",
+                                    "children": "4",
+                                    "props": {
+                                        "variant": "blurry",
+                                        "style": {
+                                            "aspectRatio": "var(--flip-aspect-ratio)"
+                                        }
+                                    },
+                                    "onClick": "await flipLandscape(4)"
+                                }
+                            ]
                         },
                         "events": {
                             "onPlayersSideboardClosed": "await onPlayersSideboardClosed()"
@@ -422,11 +516,11 @@
     "defaultRessources": {
         "backgrounds": [
             "https://valcur.github.io/TCG-Arena-AdventureTime/Images/playmat1.jpg",
-            "https://valcur.github.io/TCG-Arena-AdventureTime/Images/playmat2.jpg"
+            "https://valcur.github.io/TCG-Arena-AdventureTime/Images/playmat3.jpg"
         ],
         "decksUrl": "https://valcur.github.io/TCG-Arena-AdventureTime/decks.json"
     },
-    "customHelp": "",
+    "customHelp": "Check rules at https://www.carddweeb.com/Resources/Rulebook.",
     "cards": {
         "dataUrl": "https://valcur.github.io/TCG-Arena-AdventureTime/AdventureTimeCards.json",
         "cardBack": "https://valcur.github.io/TCG-Arena-AdventureTime/Images/cardBack.webp",
