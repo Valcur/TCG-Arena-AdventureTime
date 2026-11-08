@@ -81,6 +81,7 @@
                     "content": [
                         {
                             "direction": "row",
+                            "isSymetricalForOpponents": true,
                             "style": {
                                 "height": 0
                             },
@@ -479,7 +480,7 @@
                                             "aspectRatio": "var(--flip-aspect-ratio)"
                                         }
                                     },
-                                    "onClick": "await flipLandscape(4)"
+                                    "onClick": "await flipLandscape(3)"
                                 },
                                 {
                                     "type": "button",
@@ -520,7 +521,7 @@
         ],
         "decksUrl": "https://valcur.github.io/TCG-Arena-AdventureTime/decks.json"
     },
-    "customHelp": "Check rules at https://www.carddweeb.com/Resources/Rulebook.",
+    "customHelp": "Check rules at https://www.carddweeb.com/Resources/Rulebook.\n\nUse the buttons at the bottom left to flip or swap your Landscapes.",
     "cards": {
         "dataUrl": "https://valcur.github.io/TCG-Arena-AdventureTime/AdventureTimeCards.json",
         "cardBack": "https://valcur.github.io/TCG-Arena-AdventureTime/Images/cardBack.webp",
