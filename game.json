@@ -293,7 +293,7 @@
                         "cardActionShortcut": {
                             "action": "NONE"
                         },
-                        "lockedCards": true
+                        "lockCards": true
                     },
                     "Creature1": {
                         "isHidden": "no",
@@ -324,7 +324,7 @@
                         "cardActionShortcut": {
                             "action": "NONE"
                         },
-                        "lockedCards": true
+                        "lockCards": true
                     },
                     "Creature2": {
                         "isHidden": "no",
@@ -355,7 +355,7 @@
                         "cardActionShortcut": {
                             "action": "NONE"
                         },
-                        "lockedCards": true
+                        "lockCards": true
                     },
                     "Creature3": {
                         "isHidden": "no",
@@ -386,7 +386,7 @@
                         "cardActionShortcut": {
                             "action": "NONE"
                         },
-                        "lockedCards": true
+                        "lockCards": true
                     },
                     "Creature4": {
                         "isHidden": "no",
@@ -411,7 +411,8 @@
                         "height": 18,
                         "alignment": "CENTER",
                         "isHorizontalAllowed": false,
-                        "noQuickActions": true
+                        "noQuickActions": true,
+                        "lockCards": ["drag"]
                     },
                     "Manager": {
                         "type": "custom",
