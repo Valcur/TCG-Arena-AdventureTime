@@ -590,5 +590,2085 @@
           }
         ]
       }
+    },
+    {
+      "title": "BMO",
+      "id": "02f8b6d0-0997-484d-98c9-19a49fb56db2",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T16:08:12.627Z",
+      "lastModifiedAt": "2026-11-13T16:09:20.052Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Spell",
+          "Creature",
+          "Building"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-69"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-8"
+          },
+          {
+            "count": 1,
+            "id": "CW-9"
+          },
+          {
+            "count": 1,
+            "id": "CW-10"
+          },
+          {
+            "count": 1,
+            "id": "CW-11"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 1,
+            "id": "CW-102"
+          },
+          {
+            "count": 2,
+            "id": "CW-103"
+          },
+          {
+            "count": 2,
+            "id": "CW-104"
+          },
+          {
+            "count": 2,
+            "id": "CW-105"
+          },
+          {
+            "count": 2,
+            "id": "CW-106"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 1,
+            "id": "CW-72"
+          },
+          {
+            "count": 2,
+            "id": "CW-73"
+          },
+          {
+            "count": 1,
+            "id": "CW-74"
+          },
+          {
+            "count": 1,
+            "id": "CW-75"
+          },
+          {
+            "count": 2,
+            "id": "CW-76"
+          },
+          {
+            "count": 2,
+            "id": "CW-78"
+          },
+          {
+            "count": 2,
+            "id": "CW-80"
+          },
+          {
+            "count": 1,
+            "id": "CW-81"
+          },
+          {
+            "count": 2,
+            "id": "CW-82"
+          },
+          {
+            "count": 2,
+            "id": "CW-83"
+          },
+          {
+            "count": 2,
+            "id": "CW-85"
+          },
+          {
+            "count": 2,
+            "id": "CW-86"
+          },
+          {
+            "count": 2,
+            "id": "CW-89"
+          },
+          {
+            "count": 1,
+            "id": "CW-97"
+          },
+          {
+            "count": 1,
+            "id": "CW-99"
+          },
+          {
+            "count": 2,
+            "id": "CW-101"
+          }
+        ],
+        "Building": [
+          {
+            "count": 2,
+            "id": "CW-64"
+          },
+          {
+            "count": 1,
+            "id": "CW-65"
+          },
+          {
+            "count": 1,
+            "id": "CW-110"
+          },
+          {
+            "count": 1,
+            "id": "CW-112"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Lady Rainicorn",
+      "id": "06c867a8-1a6f-49e8-bb22-2c3a2e12a8bc",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T16:13:56.057Z",
+      "lastModifiedAt": "2026-11-13T16:14:25.414Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Creature",
+          "Building",
+          "Spell"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-70"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-12"
+          },
+          {
+            "count": 1,
+            "id": "CW-13"
+          },
+          {
+            "count": 1,
+            "id": "CW-14"
+          },
+          {
+            "count": 1,
+            "id": "CW-15"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 2,
+            "id": "CW-71"
+          },
+          {
+            "count": 1,
+            "id": "CW-77"
+          },
+          {
+            "count": 2,
+            "id": "CW-79"
+          },
+          {
+            "count": 1,
+            "id": "CW-84"
+          },
+          {
+            "count": 1,
+            "id": "CW-87"
+          },
+          {
+            "count": 2,
+            "id": "CW-88"
+          },
+          {
+            "count": 2,
+            "id": "CW-90"
+          },
+          {
+            "count": 2,
+            "id": "CW-91"
+          },
+          {
+            "count": 1,
+            "id": "CW-92"
+          },
+          {
+            "count": 2,
+            "id": "CW-93"
+          },
+          {
+            "count": 2,
+            "id": "CW-94"
+          },
+          {
+            "count": 2,
+            "id": "CW-95"
+          },
+          {
+            "count": 2,
+            "id": "CW-96"
+          },
+          {
+            "count": 2,
+            "id": "CW-98"
+          },
+          {
+            "count": 2,
+            "id": "CW-100"
+          }
+        ],
+        "Building": [
+          {
+            "count": 2,
+            "id": "CW-64"
+          },
+          {
+            "count": 1,
+            "id": "CW-65"
+          },
+          {
+            "count": 2,
+            "id": "CW-111"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-55"
+          },
+          {
+            "count": 2,
+            "id": "CW-61"
+          },
+          {
+            "count": 1,
+            "id": "CW-107"
+          },
+          {
+            "count": 2,
+            "id": "CW-108"
+          },
+          {
+            "count": 2,
+            "id": "CW-109"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Princess Bubblegum",
+      "id": "edb5cefc-755b-4486-91f4-7229ce399849",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T16:15:24.215Z",
+      "lastModifiedAt": "2026-11-13T16:15:42.796Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Creature",
+          "Spell",
+          "Building"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-114"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-16"
+          },
+          {
+            "count": 1,
+            "id": "CW-17"
+          },
+          {
+            "count": 1,
+            "id": "CW-567"
+          },
+          {
+            "count": 1,
+            "id": "CW-568"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 2,
+            "id": "CW-115"
+          },
+          {
+            "count": 2,
+            "id": "CW-116"
+          },
+          {
+            "count": 2,
+            "id": "CW-118"
+          },
+          {
+            "count": 2,
+            "id": "CW-119"
+          },
+          {
+            "count": 2,
+            "id": "CW-122"
+          },
+          {
+            "count": 2,
+            "id": "CW-123"
+          },
+          {
+            "count": 2,
+            "id": "CW-124"
+          },
+          {
+            "count": 2,
+            "id": "CW-136"
+          },
+          {
+            "count": 2,
+            "id": "CW-137"
+          },
+          {
+            "count": 2,
+            "id": "CW-139"
+          },
+          {
+            "count": 2,
+            "id": "CW-141"
+          },
+          {
+            "count": 2,
+            "id": "CW-145"
+          },
+          {
+            "count": 1,
+            "id": "CW-117"
+          },
+          {
+            "count": 1,
+            "id": "CW-127"
+          },
+          {
+            "count": 1,
+            "id": "CW-135"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-146"
+          },
+          {
+            "count": 2,
+            "id": "CW-149"
+          },
+          {
+            "count": 2,
+            "id": "CW-151"
+          },
+          {
+            "count": 2,
+            "id": "CW-152"
+          },
+          {
+            "count": 1,
+            "id": "CW-148"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-64"
+          },
+          {
+            "count": 1,
+            "id": "CW-157"
+          },
+          {
+            "count": 1,
+            "id": "CW-65"
+          },
+          {
+            "count": 1,
+            "id": "CW-161"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Lumpy Space Princess",
+      "id": "04e12171-4bfa-49c7-bf28-9b3d913a04fb",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T16:16:07.052Z",
+      "lastModifiedAt": "2026-11-13T16:17:10.558Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Building",
+          "Creature",
+          "Spell"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-113"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-0"
+          },
+          {
+            "count": 1,
+            "id": "CW-1"
+          },
+          {
+            "count": 1,
+            "id": "CW-10"
+          },
+          {
+            "count": 1,
+            "id": "CW-11"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-64"
+          },
+          {
+            "count": 1,
+            "id": "CW-158"
+          },
+          {
+            "count": 1,
+            "id": "CW-159"
+          },
+          {
+            "count": 1,
+            "id": "CW-160"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 2,
+            "id": "CW-120"
+          },
+          {
+            "count": 2,
+            "id": "CW-121"
+          },
+          {
+            "count": 2,
+            "id": "CW-125"
+          },
+          {
+            "count": 2,
+            "id": "CW-126"
+          },
+          {
+            "count": 2,
+            "id": "CW-128"
+          },
+          {
+            "count": 2,
+            "id": "CW-129"
+          },
+          {
+            "count": 2,
+            "id": "CW-130"
+          },
+          {
+            "count": 2,
+            "id": "CW-131"
+          },
+          {
+            "count": 1,
+            "id": "CW-132"
+          },
+          {
+            "count": 2,
+            "id": "CW-133"
+          },
+          {
+            "count": 2,
+            "id": "CW-134"
+          },
+          {
+            "count": 1,
+            "id": "CW-138"
+          },
+          {
+            "count": 1,
+            "id": "CW-140"
+          },
+          {
+            "count": 2,
+            "id": "CW-142"
+          },
+          {
+            "count": 2,
+            "id": "CW-143"
+          },
+          {
+            "count": 1,
+            "id": "CW-144"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-147"
+          },
+          {
+            "count": 1,
+            "id": "CW-150"
+          },
+          {
+            "count": 1,
+            "id": "CW-153"
+          },
+          {
+            "count": 2,
+            "id": "CW-154"
+          },
+          {
+            "count": 1,
+            "id": "CW-155"
+          },
+          {
+            "count": 1,
+            "id": "CW-156"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Ice King",
+      "id": "6437c8e8-15af-498c-9c7b-19cb7f90617f",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T17:44:55.227Z",
+      "lastModifiedAt": "2026-11-13T17:45:08.893Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Creature",
+          "Building",
+          "Spell"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-162"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-18"
+          },
+          {
+            "count": 1,
+            "id": "CW-19"
+          },
+          {
+            "count": 1,
+            "id": "CW-20"
+          },
+          {
+            "count": 1,
+            "id": "CW-21"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 2,
+            "id": "CW-164"
+          },
+          {
+            "count": 1,
+            "id": "CW-167"
+          },
+          {
+            "count": 2,
+            "id": "CW-171"
+          },
+          {
+            "count": 2,
+            "id": "CW-174"
+          },
+          {
+            "count": 2,
+            "id": "CW-176"
+          },
+          {
+            "count": 2,
+            "id": "CW-177"
+          },
+          {
+            "count": 2,
+            "id": "CW-181"
+          },
+          {
+            "count": 2,
+            "id": "CW-42"
+          },
+          {
+            "count": 2,
+            "id": "CW-185"
+          },
+          {
+            "count": 2,
+            "id": "CW-186"
+          },
+          {
+            "count": 1,
+            "id": "CW-187"
+          },
+          {
+            "count": 2,
+            "id": "CW-188"
+          },
+          {
+            "count": 2,
+            "id": "CW-189"
+          },
+          {
+            "count": 2,
+            "id": "CW-190"
+          },
+          {
+            "count": 1,
+            "id": "CW-191"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-65"
+          },
+          {
+            "count": 1,
+            "id": "CW-205"
+          },
+          {
+            "count": 1,
+            "id": "CW-207"
+          },
+          {
+            "count": 1,
+            "id": "CW-208"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-197"
+          },
+          {
+            "count": 2,
+            "id": "CW-198"
+          },
+          {
+            "count": 2,
+            "id": "CW-199"
+          },
+          {
+            "count": 2,
+            "id": "CW-200"
+          },
+          {
+            "count": 1,
+            "id": "CW-202"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Marceline",
+      "id": "9ccf054f-7e35-49c5-812e-c74ad6a35340",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T17:45:27.270Z",
+      "lastModifiedAt": "2026-11-13T17:45:50.232Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Building",
+          "Creature",
+          "Spell"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-163"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-16"
+          },
+          {
+            "count": 1,
+            "id": "CW-17"
+          },
+          {
+            "count": 1,
+            "id": "CW-8"
+          },
+          {
+            "count": 1,
+            "id": "CW-9"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-203"
+          },
+          {
+            "count": 1,
+            "id": "CW-204"
+          },
+          {
+            "count": 1,
+            "id": "CW-206"
+          },
+          {
+            "count": 1,
+            "id": "CW-209"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 2,
+            "id": "CW-165"
+          },
+          {
+            "count": 1,
+            "id": "CW-166"
+          },
+          {
+            "count": 1,
+            "id": "CW-168"
+          },
+          {
+            "count": 2,
+            "id": "CW-169"
+          },
+          {
+            "count": 1,
+            "id": "CW-170"
+          },
+          {
+            "count": 2,
+            "id": "CW-172"
+          },
+          {
+            "count": 2,
+            "id": "CW-173"
+          },
+          {
+            "count": 2,
+            "id": "CW-175"
+          },
+          {
+            "count": 2,
+            "id": "CW-178"
+          },
+          {
+            "count": 2,
+            "id": "CW-179"
+          },
+          {
+            "count": 2,
+            "id": "CW-180"
+          },
+          {
+            "count": 2,
+            "id": "CW-182"
+          },
+          {
+            "count": 2,
+            "id": "CW-183"
+          },
+          {
+            "count": 2,
+            "id": "CW-184"
+          },
+          {
+            "count": 2,
+            "id": "CW-192"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-193"
+          },
+          {
+            "count": 2,
+            "id": "CW-194"
+          },
+          {
+            "count": 1,
+            "id": "CW-195"
+          },
+          {
+            "count": 2,
+            "id": "CW-196"
+          },
+          {
+            "count": 2,
+            "id": "CW-201"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Lemongrab",
+      "id": "10399436-6013-4be7-b947-f272047cf679",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T17:46:20.197Z",
+      "lastModifiedAt": "2026-11-13T17:46:46.494Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Spell",
+          "Creature",
+          "Building"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-210"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-4"
+          },
+          {
+            "count": 1,
+            "id": "CW-5"
+          },
+          {
+            "count": 1,
+            "id": "CW-12"
+          },
+          {
+            "count": 1,
+            "id": "CW-13"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-246"
+          },
+          {
+            "count": 2,
+            "id": "CW-255"
+          },
+          {
+            "count": 2,
+            "id": "CW-244"
+          },
+          {
+            "count": 1,
+            "id": "CW-245"
+          },
+          {
+            "count": 1,
+            "id": "CW-247"
+          },
+          {
+            "count": 1,
+            "id": "CW-248"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 2,
+            "id": "CW-226"
+          },
+          {
+            "count": 2,
+            "id": "CW-225"
+          },
+          {
+            "count": 2,
+            "id": "CW-216"
+          },
+          {
+            "count": 2,
+            "id": "CW-218"
+          },
+          {
+            "count": 2,
+            "id": "CW-214"
+          },
+          {
+            "count": 2,
+            "id": "CW-217"
+          },
+          {
+            "count": 2,
+            "id": "CW-221"
+          },
+          {
+            "count": 2,
+            "id": "CW-224"
+          },
+          {
+            "count": 2,
+            "id": "CW-243"
+          },
+          {
+            "count": 1,
+            "id": "CW-215"
+          },
+          {
+            "count": 1,
+            "id": "CW-220"
+          },
+          {
+            "count": 1,
+            "id": "CW-241"
+          },
+          {
+            "count": 1,
+            "id": "CW-219"
+          },
+          {
+            "count": 1,
+            "id": "CW-223"
+          },
+          {
+            "count": 1,
+            "id": "CW-242"
+          },
+          {
+            "count": 1,
+            "id": "CW-212"
+          },
+          {
+            "count": 1,
+            "id": "CW-213"
+          },
+          {
+            "count": 1,
+            "id": "CW-222"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-264"
+          },
+          {
+            "count": 1,
+            "id": "CW-259"
+          },
+          {
+            "count": 1,
+            "id": "CW-258"
+          },
+          {
+            "count": 1,
+            "id": "CW-257"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Gunter",
+      "id": "63cbba8c-320e-4bd0-a533-c205b5c64a77",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T17:47:09.496Z",
+      "lastModifiedAt": "2026-11-13T17:47:28.232Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Spell",
+          "Creature",
+          "Building"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-211"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-0"
+          },
+          {
+            "count": 1,
+            "id": "CW-1"
+          },
+          {
+            "count": 1,
+            "id": "CW-19"
+          },
+          {
+            "count": 1,
+            "id": "CW-20"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 1,
+            "id": "CW-256"
+          },
+          {
+            "count": 1,
+            "id": "CW-254"
+          },
+          {
+            "count": 2,
+            "id": "CW-249"
+          },
+          {
+            "count": 2,
+            "id": "CW-250"
+          },
+          {
+            "count": 2,
+            "id": "CW-252"
+          },
+          {
+            "count": 2,
+            "id": "CW-253"
+          },
+          {
+            "count": 1,
+            "id": "CW-251"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 2,
+            "id": "CW-240"
+          },
+          {
+            "count": 2,
+            "id": "CW-237"
+          },
+          {
+            "count": 2,
+            "id": "CW-231"
+          },
+          {
+            "count": 1,
+            "id": "CW-228"
+          },
+          {
+            "count": 1,
+            "id": "CW-230"
+          },
+          {
+            "count": 2,
+            "id": "CW-233"
+          },
+          {
+            "count": 2,
+            "id": "CW-232"
+          },
+          {
+            "count": 2,
+            "id": "CW-234"
+          },
+          {
+            "count": 2,
+            "id": "CW-235"
+          },
+          {
+            "count": 2,
+            "id": "CW-227"
+          },
+          {
+            "count": 1,
+            "id": "CW-229"
+          },
+          {
+            "count": 2,
+            "id": "CW-236"
+          },
+          {
+            "count": 2,
+            "id": "CW-239"
+          },
+          {
+            "count": 2,
+            "id": "CW-238"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-262"
+          },
+          {
+            "count": 1,
+            "id": "CW-260"
+          },
+          {
+            "count": 1,
+            "id": "CW-261"
+          },
+          {
+            "count": 1,
+            "id": "CW-263"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Fionna",
+      "id": "5e047026-badf-45aa-a5e1-07dc077add1b",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T17:47:52.102Z",
+      "lastModifiedAt": "2026-11-13T17:48:04.323Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Creature",
+          "Building",
+          "Spell"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-265"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-0"
+          },
+          {
+            "count": 1,
+            "id": "CW-1"
+          },
+          {
+            "count": 1,
+            "id": "CW-2"
+          },
+          {
+            "count": 1,
+            "id": "CW-3"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 1,
+            "id": "CW-273"
+          },
+          {
+            "count": 2,
+            "id": "CW-278"
+          },
+          {
+            "count": 2,
+            "id": "CW-277"
+          },
+          {
+            "count": 1,
+            "id": "CW-274"
+          },
+          {
+            "count": 2,
+            "id": "CW-279"
+          },
+          {
+            "count": 2,
+            "id": "CW-269"
+          },
+          {
+            "count": 2,
+            "id": "CW-268"
+          },
+          {
+            "count": 2,
+            "id": "CW-296"
+          },
+          {
+            "count": 2,
+            "id": "CW-272"
+          },
+          {
+            "count": 2,
+            "id": "CW-267"
+          },
+          {
+            "count": 2,
+            "id": "CW-270"
+          },
+          {
+            "count": 1,
+            "id": "CW-276"
+          },
+          {
+            "count": 2,
+            "id": "CW-280"
+          },
+          {
+            "count": 1,
+            "id": "CW-271"
+          },
+          {
+            "count": 2,
+            "id": "CW-275"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-308"
+          },
+          {
+            "count": 1,
+            "id": "CW-309"
+          },
+          {
+            "count": 2,
+            "id": "CW-313"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-297"
+          },
+          {
+            "count": 2,
+            "id": "CW-300"
+          },
+          {
+            "count": 1,
+            "id": "CW-302"
+          },
+          {
+            "count": 1,
+            "id": "CW-301"
+          },
+          {
+            "count": 2,
+            "id": "CW-298"
+          },
+          {
+            "count": 2,
+            "id": "CW-299"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Cake",
+      "id": "03d79c95-f5bd-4472-830a-30d256b723ca",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T17:48:25.287Z",
+      "lastModifiedAt": "2026-11-13T17:48:36.585Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Creature",
+          "Building",
+          "Spell"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-266"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-4"
+          },
+          {
+            "count": 1,
+            "id": "CW-5"
+          },
+          {
+            "count": 1,
+            "id": "CW-6"
+          },
+          {
+            "count": 1,
+            "id": "CW-7"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 1,
+            "id": "CW-291"
+          },
+          {
+            "count": 2,
+            "id": "CW-285"
+          },
+          {
+            "count": 2,
+            "id": "CW-286"
+          },
+          {
+            "count": 2,
+            "id": "CW-295"
+          },
+          {
+            "count": 2,
+            "id": "CW-282"
+          },
+          {
+            "count": 2,
+            "id": "CW-283"
+          },
+          {
+            "count": 2,
+            "id": "CW-284"
+          },
+          {
+            "count": 2,
+            "id": "CW-289"
+          },
+          {
+            "count": 1,
+            "id": "CW-288"
+          },
+          {
+            "count": 2,
+            "id": "CW-281"
+          },
+          {
+            "count": 1,
+            "id": "CW-287"
+          },
+          {
+            "count": 2,
+            "id": "CW-292"
+          },
+          {
+            "count": 2,
+            "id": "CW-294"
+          },
+          {
+            "count": 2,
+            "id": "CW-293"
+          },
+          {
+            "count": 2,
+            "id": "CW-290"
+          }
+        ],
+        "Building": [
+          {
+            "count": 2,
+            "id": "CW-310"
+          },
+          {
+            "count": 1,
+            "id": "CW-312"
+          },
+          {
+            "count": 2,
+            "id": "CW-314"
+          },
+          {
+            "count": 1,
+            "id": "CW-311"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 1,
+            "id": "CW-307"
+          },
+          {
+            "count": 2,
+            "id": "CW-304"
+          },
+          {
+            "count": 1,
+            "id": "CW-306"
+          },
+          {
+            "count": 2,
+            "id": "CW-305"
+          },
+          {
+            "count": 1,
+            "id": "CW-303"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Peppermint Butler",
+      "id": "990ce697-6a15-436d-acc2-e1b18351277b",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T17:51:54.959Z",
+      "lastModifiedAt": "2026-11-13T17:52:22.952Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Spell",
+          "Creature",
+          "Building"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-644"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-8"
+          },
+          {
+            "count": 1,
+            "id": "CW-11"
+          },
+          {
+            "count": 1,
+            "id": "CW-603"
+          },
+          {
+            "count": 1,
+            "id": "CW-602"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 1,
+            "id": "CW-590"
+          },
+          {
+            "count": 1,
+            "id": "CW-723"
+          },
+          {
+            "count": 2,
+            "id": "CW-734"
+          },
+          {
+            "count": 2,
+            "id": "CW-663"
+          },
+          {
+            "count": 2,
+            "id": "CW-667"
+          },
+          {
+            "count": 1,
+            "id": "CW-676"
+          },
+          {
+            "count": 2,
+            "id": "CW-735"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 2,
+            "id": "CW-576"
+          },
+          {
+            "count": 1,
+            "id": "CW-731"
+          },
+          {
+            "count": 2,
+            "id": "CW-732"
+          },
+          {
+            "count": 1,
+            "id": "CW-727"
+          },
+          {
+            "count": 1,
+            "id": "CW-722"
+          },
+          {
+            "count": 2,
+            "id": "CW-726"
+          },
+          {
+            "count": 2,
+            "id": "CW-711"
+          },
+          {
+            "count": 2,
+            "id": "CW-635"
+          },
+          {
+            "count": 2,
+            "id": "CW-637"
+          },
+          {
+            "count": 2,
+            "id": "CW-639"
+          },
+          {
+            "count": 2,
+            "id": "CW-729"
+          },
+          {
+            "count": 1,
+            "id": "CW-730"
+          },
+          {
+            "count": 2,
+            "id": "CW-672"
+          },
+          {
+            "count": 2,
+            "id": "CW-673"
+          },
+          {
+            "count": 2,
+            "id": "CW-728"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-738"
+          },
+          {
+            "count": 2,
+            "id": "CW-737"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Magic Man",
+      "id": "1c0eec8c-62a3-482f-bc1b-4beb2eac7daa",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T17:53:44.121Z",
+      "lastModifiedAt": "2026-11-13T17:54:16.442Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Creature",
+          "Spell",
+          "Building"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-634"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-12"
+          },
+          {
+            "count": 1,
+            "id": "CW-15"
+          },
+          {
+            "count": 1,
+            "id": "CW-16"
+          },
+          {
+            "count": 1,
+            "id": "CW-568"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 1,
+            "id": "CW-741"
+          },
+          {
+            "count": 2,
+            "id": "CW-589"
+          },
+          {
+            "count": 2,
+            "id": "CW-740"
+          },
+          {
+            "count": 2,
+            "id": "CW-594"
+          },
+          {
+            "count": 2,
+            "id": "CW-611"
+          },
+          {
+            "count": 2,
+            "id": "CW-742"
+          },
+          {
+            "count": 2,
+            "id": "CW-739"
+          },
+          {
+            "count": 1,
+            "id": "CW-652"
+          },
+          {
+            "count": 2,
+            "id": "CW-861"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 1,
+            "id": "CW-587"
+          },
+          {
+            "count": 2,
+            "id": "CW-593"
+          },
+          {
+            "count": 1,
+            "id": "CW-595"
+          },
+          {
+            "count": 2,
+            "id": "CW-744"
+          },
+          {
+            "count": 2,
+            "id": "CW-743"
+          },
+          {
+            "count": 2,
+            "id": "CW-631"
+          },
+          {
+            "count": 2,
+            "id": "CW-640"
+          },
+          {
+            "count": 1,
+            "id": "CW-745"
+          },
+          {
+            "count": 2,
+            "id": "CW-651"
+          },
+          {
+            "count": 2,
+            "id": "CW-746"
+          },
+          {
+            "count": 1,
+            "id": "CW-668"
+          },
+          {
+            "count": 2,
+            "id": "CW-715"
+          },
+          {
+            "count": 2,
+            "id": "CW-658"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-591"
+          },
+          {
+            "count": 1,
+            "id": "CW-747"
+          }
+        ]
+      }
+    },
+    {
+      "title": "The Lich",
+      "id": "384c4694-732b-4495-b70c-009c73e846c1",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T17:55:05.708Z",
+      "lastModifiedAt": "2026-11-13T17:55:26.992Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Creature",
+          "Building",
+          "Spell"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-670"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-9"
+          },
+          {
+            "count": 1,
+            "id": "CW-10"
+          },
+          {
+            "count": 1,
+            "id": "CW-20"
+          },
+          {
+            "count": 1,
+            "id": "CW-21"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 1,
+            "id": "CW-860"
+          },
+          {
+            "count": 1,
+            "id": "CW-586"
+          },
+          {
+            "count": 2,
+            "id": "CW-573"
+          },
+          {
+            "count": 2,
+            "id": "CW-767"
+          },
+          {
+            "count": 2,
+            "id": "CW-766"
+          },
+          {
+            "count": 1,
+            "id": "CW-610"
+          },
+          {
+            "count": 2,
+            "id": "CW-628"
+          },
+          {
+            "count": 2,
+            "id": "CW-769"
+          },
+          {
+            "count": 2,
+            "id": "CW-768"
+          },
+          {
+            "count": 2,
+            "id": "CW-762"
+          },
+          {
+            "count": 2,
+            "id": "CW-763"
+          },
+          {
+            "count": 2,
+            "id": "CW-764"
+          },
+          {
+            "count": 2,
+            "id": "CW-653"
+          },
+          {
+            "count": 2,
+            "id": "CW-765"
+          },
+          {
+            "count": 2,
+            "id": "CW-655"
+          },
+          {
+            "count": 1,
+            "id": "CW-657"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-775"
+          },
+          {
+            "count": 1,
+            "id": "CW-776"
+          },
+          {
+            "count": 1,
+            "id": "CW-774"
+          },
+          {
+            "count": 1,
+            "id": "CW-773"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-772"
+          },
+          {
+            "count": 2,
+            "id": "CW-616"
+          },
+          {
+            "count": 1,
+            "id": "CW-770"
+          },
+          {
+            "count": 2,
+            "id": "CW-716"
+          },
+          {
+            "count": 1,
+            "id": "CW-771"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Prismo",
+      "id": "0268f5aa-c524-48dc-897e-f1c58a2c329e",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T17:54:48.102Z",
+      "lastModifiedAt": "2026-11-13T17:56:27.074Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Creature",
+          "Spell",
+          "Building"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-647"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-0"
+          },
+          {
+            "count": 1,
+            "id": "CW-4"
+          },
+          {
+            "count": 1,
+            "id": "CW-12"
+          },
+          {
+            "count": 1,
+            "id": "CW-601"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 2,
+            "id": "CW-755"
+          },
+          {
+            "count": 2,
+            "id": "CW-756"
+          },
+          {
+            "count": 2,
+            "id": "CW-585"
+          },
+          {
+            "count": 2,
+            "id": "CW-599"
+          },
+          {
+            "count": 2,
+            "id": "CW-752"
+          },
+          {
+            "count": 2,
+            "id": "CW-643"
+          },
+          {
+            "count": 2,
+            "id": "CW-650"
+          },
+          {
+            "count": 2,
+            "id": "CW-749"
+          },
+          {
+            "count": 2,
+            "id": "CW-750"
+          },
+          {
+            "count": 2,
+            "id": "CW-748"
+          },
+          {
+            "count": 2,
+            "id": "CW-753"
+          },
+          {
+            "count": 1,
+            "id": "CW-751"
+          },
+          {
+            "count": 1,
+            "id": "CW-754"
+          },
+          {
+            "count": 1,
+            "id": "CW-600"
+          },
+          {
+            "count": 1,
+            "id": "CW-627"
+          },
+          {
+            "count": 1,
+            "id": "CW-725"
+          },
+          {
+            "count": 1,
+            "id": "CW-681"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-758"
+          },
+          {
+            "count": 2,
+            "id": "CW-759"
+          },
+          {
+            "count": 2,
+            "id": "CW-757"
+          },
+          {
+            "count": 1,
+            "id": "CW-720"
+          },
+          {
+            "count": 1,
+            "id": "CW-709"
+          }
+        ],
+        "Building": [
+          {
+            "count": 2,
+            "id": "CW-679"
+          },
+          {
+            "count": 1,
+            "id": "CW-760"
+          },
+          {
+            "count": 1,
+            "id": "CW-761"
+          }
+        ]
+      }
     }
 ]
