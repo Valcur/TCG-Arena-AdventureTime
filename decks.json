@@ -1,5 +1,305 @@
 [
     {
+      "title": "Flame Princess",
+      "id": "0ed36c77-427a-4d9d-a345-2d04b387df17",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T15:48:41.986Z",
+      "lastModifiedAt": "2026-11-13T15:49:25.486Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Creature",
+          "Spell",
+          "Building"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-606"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-601"
+          },
+          {
+            "count": 1,
+            "id": "CW-602"
+          },
+          {
+            "count": 1,
+            "id": "CW-603"
+          },
+          {
+            "count": 1,
+            "id": "CW-604"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 1,
+            "id": "CW-612"
+          },
+          {
+            "count": 2,
+            "id": "CW-721"
+          },
+          {
+            "count": 2,
+            "id": "CW-615"
+          },
+          {
+            "count": 2,
+            "id": "CW-609"
+          },
+          {
+            "count": 2,
+            "id": "CW-777"
+          },
+          {
+            "count": 2,
+            "id": "CW-778"
+          },
+          {
+            "count": 1,
+            "id": "CW-779"
+          },
+          {
+            "count": 1,
+            "id": "CW-780"
+          },
+          {
+            "count": 1,
+            "id": "CW-613"
+          },
+          {
+            "count": 2,
+            "id": "CW-608"
+          },
+          {
+            "count": 2,
+            "id": "CW-781"
+          },
+          {
+            "count": 2,
+            "id": "CW-782"
+          },
+          {
+            "count": 2,
+            "id": "CW-607"
+          },
+          {
+            "count": 2,
+            "id": "CW-717"
+          },
+          {
+            "count": 1,
+            "id": "CW-632"
+          },
+          {
+            "count": 1,
+            "id": "CW-784"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-783"
+          },
+          {
+            "count": 2,
+            "id": "CW-592"
+          },
+          {
+            "count": 1,
+            "id": "CW-785"
+          },
+          {
+            "count": 2,
+            "id": "CW-621"
+          },
+          {
+            "count": 2,
+            "id": "CW-674"
+          }
+        ],
+        "Building": [
+          {
+            "count": 2,
+            "id": "CW-786"
+          },
+          {
+            "count": 1,
+            "id": "CW-787"
+          },
+          {
+            "count": 1,
+            "id": "CW-788"
+          },
+          {
+            "count": 1,
+            "id": "CW-582"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Fern",
+      "id": "4138aa38-ad00-4736-b97c-e1ce86e67665",
+      "cardCount": 45,
+      "createdAt": "2026-11-13T15:50:01.732Z",
+      "lastModifiedAt": "2026-11-13T15:50:36.132Z",
+      "game": "Adventure Time Card Wars",
+      "format": [
+        "Classic"
+      ],
+      "deckList": {
+        "categoriesOrder": [
+          "Hero",
+          "Landscape",
+          "Creature",
+          "Spell",
+          "Building"
+        ],
+        "Hero": [
+          {
+            "count": 1,
+            "id": "CW-605"
+          }
+        ],
+        "Landscape": [
+          {
+            "count": 1,
+            "id": "CW-4"
+          },
+          {
+            "count": 1,
+            "id": "CW-6"
+          },
+          {
+            "count": 1,
+            "id": "CW-567"
+          },
+          {
+            "count": 1,
+            "id": "CW-568"
+          }
+        ],
+        "Creature": [
+          {
+            "count": 2,
+            "id": "CW-789"
+          },
+          {
+            "count": 2,
+            "id": "CW-580"
+          },
+          {
+            "count": 2,
+            "id": "CW-790"
+          },
+          {
+            "count": 2,
+            "id": "CW-596"
+          },
+          {
+            "count": 2,
+            "id": "CW-802"
+          },
+          {
+            "count": 2,
+            "id": "CW-660"
+          },
+          {
+            "count": 1,
+            "id": "CW-714"
+          },
+          {
+            "count": 1,
+            "id": "CW-792"
+          },
+          {
+            "count": 1,
+            "id": "CW-793"
+          },
+          {
+            "count": 2,
+            "id": "CW-579"
+          },
+          {
+            "count": 2,
+            "id": "CW-794"
+          },
+          {
+            "count": 2,
+            "id": "CW-718"
+          },
+          {
+            "count": 2,
+            "id": "CW-795"
+          },
+          {
+            "count": 2,
+            "id": "CW-675"
+          },
+          {
+            "count": 1,
+            "id": "CW-791"
+          },
+          {
+            "count": 1,
+            "id": "CW-623"
+          }
+        ],
+        "Spell": [
+          {
+            "count": 2,
+            "id": "CW-797"
+          },
+          {
+            "count": 2,
+            "id": "CW-619"
+          },
+          {
+            "count": 1,
+            "id": "CW-798"
+          },
+          {
+            "count": 1,
+            "id": "CW-799"
+          },
+          {
+            "count": 2,
+            "id": "CW-800"
+          }
+        ],
+        "Building": [
+          {
+            "count": 1,
+            "id": "CW-801"
+          },
+          {
+            "count": 2,
+            "id": "CW-633"
+          },
+          {
+            "count": 1,
+            "id": "CW-703"
+          },
+          {
+            "count": 1,
+            "id": "CW-661"
+          }
+        ]
+      }
+    },
+    {
       "title": "Jake",
       "id": "Jake",
       "cardCount": 45,

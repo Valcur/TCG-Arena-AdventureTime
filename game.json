@@ -4,8 +4,10 @@
     "deckBuilding": {
         "mainFilters": [
             "type",
-            "colors",
-            "rarity"
+            "set",
+            "cost",
+            "attack",
+            "defense"
         ],
         "formats": [
             {
