@@ -311,7 +311,7 @@
                         "cardActionShortcut": {
                             "action": "NONE"
                         },
-                        "lockCards": true
+                        "lockCards": ["drag", "hover]
                     },
                     "Creature1": {
                         "isHidden": "no",
