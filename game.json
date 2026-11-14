@@ -459,18 +459,18 @@
                                             "props": {
                                                 "variant": "blurry",
                                                 "style": {
-                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                    "padding": "var(--landscape-button-padding)"
                                                 }
                                             },
                                             "onClick": "await flipLandscape(1)"
                                         },
                                         {
                                             "type": "button",
-                                            "children": "❄",
+                                            "children": "❆",
                                             "props": {
                                                 "variant": "blurry",
                                                 "style": {
-                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                    "padding": "var(--landscape-button-padding)"
                                                 }
                                             },
                                             "onClick": "await freezeLandscape(1)"
@@ -504,18 +504,18 @@
                                             "props": {
                                                 "variant": "blurry",
                                                 "style": {
-                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                    "padding": "var(--landscape-button-padding)"
                                                 }
                                             },
                                             "onClick": "await flipLandscape(2)"
                                         },
                                         {
                                             "type": "button",
-                                            "children": "❄",
+                                            "children": "❆",
                                             "props": {
                                                 "variant": "blurry",
                                                 "style": {
-                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                    "padding": "var(--landscape-button-padding)"
                                                 }
                                             },
                                             "onClick": "await freezeLandscape(2)"
@@ -549,18 +549,18 @@
                                             "props": {
                                                 "variant": "blurry",
                                                 "style": {
-                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                    "padding": "var(--landscape-button-padding)"
                                                 }
                                             },
                                             "onClick": "await flipLandscape(3)"
                                         },
                                         {
                                             "type": "button",
-                                            "children": "❄",
+                                            "children": "❆",
                                             "props": {
                                                 "variant": "blurry",
                                                 "style": {
-                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                    "padding": "var(--landscape-button-padding)"
                                                 }
                                             },
                                             "onClick": "await freezeLandscape(3)"
@@ -594,18 +594,18 @@
                                             "props": {
                                                 "variant": "blurry",
                                                 "style": {
-                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                    "padding": "var(--landscape-button-padding)"
                                                 }
                                             },
                                             "onClick": "await flipLandscape(4)"
                                         },
                                         {
                                             "type": "button",
-                                            "children": "❄",
+                                            "children": "❆",
                                             "props": {
                                                 "variant": "blurry",
                                                 "style": {
-                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                    "padding": "var(--landscape-button-padding)"
                                                 }
                                             },
                                             "onClick": "await freezeLandscape(4)"

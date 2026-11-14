@@ -34,7 +34,8 @@ async function freezeLandscape(index) {
                 {
                     "id": "Frozen",
                     "name": "Frozen",
-                    "image": "https://valcur.github.io/TCG-Arena-AdventureTime/Images/frozen.png"
+                    "image": "https://valcur.github.io/TCG-Arena-AdventureTime/Images/frozen.png",
+                    "count": (landscape?.draggableTokens?.[0]?.count ?? 0) + 1
                 }
             ]
     })
