@@ -1,0 +1,16 @@
+{
+    "author": "PiouPiou",
+    "gameUrl": "https://valcur.github.io/TCG-Arena-AdventureTime/game.json",
+    "tags": "",
+    "langs": [
+        "en"
+    ],
+    "useAiArts": false,
+    "screenshotUrls": [
+        "https://valcur.github.io/TCG-Arena-AdventureTime/Workshop/workshop1.jpg"
+    ],
+    "descriptionUrl": "https://valcur.github.io/TCG-Arena-AdventureTime/Workshop/description.md",
+    "updates": [
+        "First release!"
+    ]
+}
