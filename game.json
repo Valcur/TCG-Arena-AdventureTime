@@ -68,7 +68,23 @@
                 "drawPerTurn": 1
             },
             "tokens": [],
-            "draggableTokens": [],
+            "draggableTokens": [
+                {
+                    "id": "Frozen",
+                    "name": "Frozen",
+                    "image": "https://valcur.github.io/TCG-Arena-AdventureTime/Images/frozen.png"
+                },
+                {
+                    "id": "Burn",
+                    "name": "Burn",
+                    "image": "https://valcur.github.io/TCG-Arena-AdventureTime/Images/burn.png"
+                },
+                {
+                    "id": "Attack",
+                    "name": "Attack",
+                    "image": "https://valcur.github.io/TCG-Arena-AdventureTime/Images/attack.png"
+                }
+            ],
             "countersStartingValues": [25],
             "sections": {
                 "layout": {
