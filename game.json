@@ -40,9 +40,7 @@
     "gameplay": {
         "Classic": {
             "beforeGameStart": {
-                "initialBoardSetup": {
-
-                },
+                "initialBoardSetup": {},
                 "chooseAnotherStartingPlayer": true
             },
             "mulligan": {
@@ -85,7 +83,9 @@
                     "image": "https://valcur.github.io/TCG-Arena-AdventureTime/Images/attack.png"
                 }
             ],
-            "countersStartingValues": [25],
+            "countersStartingValues": [
+                25
+            ],
             "sections": {
                 "layout": {
                     "direction": "column",
@@ -293,12 +293,8 @@
                     "Landscape->Exile",
                     "Hero"
                 ],
-                "autoPlayFromHand": {
-
-                },
-                "autoPlayFromStack": {
-
-                },
+                "autoPlayFromHand": {},
+                "autoPlayFromStack": {},
                 "sectionsDict": {
                     "Landscape1": {
                         "isHidden": "no",
@@ -311,7 +307,7 @@
                         "cardActionShortcut": {
                             "action": "NONE"
                         },
-                        "lockCards": ["drag", "zoom"]
+                        "lockCards": true
                     },
                     "Creature1": {
                         "isHidden": "no",
@@ -430,12 +426,13 @@
                         "alignment": "CENTER",
                         "isHorizontalAllowed": false,
                         "noQuickActions": true,
-                        "lockCards": ["drag"]
+                        "lockCards": [
+                            "drag"
+                        ]
                     },
                     "Manager": {
                         "type": "custom",
-                        "defaultValue": {
-                        },
+                        "defaultValue": {},
                         "blueprint": {
                             "type": "div",
                             "props": {
@@ -447,15 +444,38 @@
                             },
                             "children": [
                                 {
-                                    "type": "button",
-                                    "children": "1",
+                                    "type": "div",
                                     "props": {
-                                        "variant": "blurry",
                                         "style": {
-                                            "aspectRatio": "var(--flip-aspect-ratio)"
+                                            "display": "flex",
+                                            "flexDirection": "column",
+                                            "gap": "var(--section-gap)"
                                         }
                                     },
-                                    "onClick": "await flipLandscape(1)"
+                                    "children": [
+                                        {
+                                            "type": "button",
+                                            "children": "⟳",
+                                            "props": {
+                                                "variant": "blurry",
+                                                "style": {
+                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                }
+                                            },
+                                            "onClick": "await flipLandscape(1)"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "children": "❄",
+                                            "props": {
+                                                "variant": "blurry",
+                                                "style": {
+                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                }
+                                            },
+                                            "onClick": "await freezeLandscape(1)"
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "button",
@@ -469,15 +489,38 @@
                                     "onClick": "await swapLandscapes(1)"
                                 },
                                 {
-                                    "type": "button",
-                                    "children": "2",
+                                    "type": "div",
                                     "props": {
-                                        "variant": "blurry",
                                         "style": {
-                                            "aspectRatio": "var(--flip-aspect-ratio)"
+                                            "display": "flex",
+                                            "flexDirection": "column",
+                                            "gap": "var(--section-gap)"
                                         }
                                     },
-                                    "onClick": "await flipLandscape(2)"
+                                    "children": [
+                                        {
+                                            "type": "button",
+                                            "children": "⟳",
+                                            "props": {
+                                                "variant": "blurry",
+                                                "style": {
+                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                }
+                                            },
+                                            "onClick": "await flipLandscape(2)"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "children": "❄",
+                                            "props": {
+                                                "variant": "blurry",
+                                                "style": {
+                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                }
+                                            },
+                                            "onClick": "await freezeLandscape(2)"
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "button",
@@ -491,15 +534,38 @@
                                     "onClick": "await swapLandscapes(2)"
                                 },
                                 {
-                                    "type": "button",
-                                    "children": "3",
+                                    "type": "div",
                                     "props": {
-                                        "variant": "blurry",
                                         "style": {
-                                            "aspectRatio": "var(--flip-aspect-ratio)"
+                                            "display": "flex",
+                                            "flexDirection": "column",
+                                            "gap": "var(--section-gap)"
                                         }
                                     },
-                                    "onClick": "await flipLandscape(3)"
+                                    "children": [
+                                        {
+                                            "type": "button",
+                                            "children": "⟳",
+                                            "props": {
+                                                "variant": "blurry",
+                                                "style": {
+                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                }
+                                            },
+                                            "onClick": "await flipLandscape(3)"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "children": "❄",
+                                            "props": {
+                                                "variant": "blurry",
+                                                "style": {
+                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                }
+                                            },
+                                            "onClick": "await freezeLandscape(3)"
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "button",
@@ -513,15 +579,38 @@
                                     "onClick": "await swapLandscapes(3)"
                                 },
                                 {
-                                    "type": "button",
-                                    "children": "4",
+                                    "type": "div",
                                     "props": {
-                                        "variant": "blurry",
                                         "style": {
-                                            "aspectRatio": "var(--flip-aspect-ratio)"
+                                            "display": "flex",
+                                            "flexDirection": "column",
+                                            "gap": "var(--section-gap)"
                                         }
                                     },
-                                    "onClick": "await flipLandscape(4)"
+                                    "children": [
+                                        {
+                                            "type": "button",
+                                            "children": "⟳",
+                                            "props": {
+                                                "variant": "blurry",
+                                                "style": {
+                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                }
+                                            },
+                                            "onClick": "await flipLandscape(4)"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "children": "❄",
+                                            "props": {
+                                                "variant": "blurry",
+                                                "style": {
+                                                    "aspectRatio": "var(--flip-aspect-ratio)"
+                                                }
+                                            },
+                                            "onClick": "await freezeLandscape(4)"
+                                        }
+                                    ]
                                 }
                             ]
                         },
