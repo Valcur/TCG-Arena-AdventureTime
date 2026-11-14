@@ -438,8 +438,8 @@
                             "props": {
                                 "className": "position-absolute player-only d-flex gap-1 bottom-0 start-0 align-items-center",
                                 "style": {
-                                    "--flip-aspect-ratio": "63 / 88",
-                                    "--swap-padding": "0vh 0.5vh 0.1vh 0.5vh"
+                                    "--swap-padding": "0vh 0.5vh 0.1vh 0.5vh",
+                                    "--landscape-button-padding": "0vh 0.5vh 0.1vh 0.5vh"
                                 }
                             },
                             "children": [
